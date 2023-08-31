@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Arguedemo";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Arguedemo.woff") format("woff"), url("../fonts/Arguedemo.woff2") format("woff2"), url("../fonts/Arguedemo.eot") format("embedded-opentype"), url("../fonts/Arguedemo.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Nexa";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/NexaRegular.woff") format("woff"), url("../fonts/NexaRegular.woff2") format("woff2"), url("../fonts/NexaRegular.eot") format("embedded-opentype"), url("../fonts/NexaRegular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Nexa";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Nexa-Bold.woff") format("woff"), url("../fonts/Nexa-Bold.woff2") format("woff2"), url("../fonts/Nexa-Bold.eot") format("embedded-opentype"), url("../fonts/Nexa-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Nexa";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/Nexa-XBold.woff") format("woff"), url("../fonts/Nexa-XBold.woff2") format("woff2"), url("../fonts/Nexa-XBold.eot") format("embedded-opentype"), url("../fonts/Nexa-XBold.ttf") format("truetype");
+}
+
+/*# sourceMappingURL=fonts.css.map */

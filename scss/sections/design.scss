@@ -1,0 +1,87 @@
+.design {
+  padding-top: 170px;
+  padding-bottom: 170px;
+
+  .title-h2 {
+    margin: 0 auto;
+    max-width: 1150px;
+    margin-bottom: 65px;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+
+    &_flex {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__head {
+    margin-top: 65px;
+
+    .text-p {
+      font-size: 20px;
+      line-height: 24px;
+      max-width: 460px;
+      margin-bottom: 50px;
+    }
+  }
+
+  &__label {
+    font-family: 'Arguedemo';
+    font-weight: 400;
+    font-size: 180px;
+    line-height: 198px;
+    color: $second-color;
+    margin-right: 55px;
+    margin-top: 68px;
+  }
+
+  &__foot {
+    margin-right: 25px;
+    margin-top: 96px;
+
+    &_title {
+      font-family: 'Arguedemo';
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 33px;
+      color: $second-color;
+      margin-bottom: 20px;
+    }
+
+    .text-p {
+      max-width: 555px;
+    }
+  }
+
+  &__png {
+    margin-top: -75px
+  }
+}
+
+@media (max-width: 1330px) {
+
+  .design__container {
+    flex-direction: column;
+  }
+
+  .design__label {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .design__png {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .title-h2 {
+    font-size: 30px !important;
+    line-height: 45px !important;
+  }
+}

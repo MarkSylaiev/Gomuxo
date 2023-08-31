@@ -1,0 +1,46 @@
+.feedback {
+  padding: 115px 0 250px;
+  overflow: hidden;
+}
+.feedback__title {
+  max-width: 705px;
+}
+.feedback__img {
+  max-height: 172px;
+  margin-bottom: 140px;
+  margin-right: 130px;
+}
+.feedback__bottom {
+  display: flex;
+  align-items: flex-end;
+  margin-top: -260px;
+}
+
+.feedback-slider__item {
+  display: flex !important;
+  align-items: flex-end;
+}
+.feedback-slider__comment {
+  margin-right: 95px;
+  margin-bottom: 175px;
+}
+.feedback-slider__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.feedback-slider__img {
+  margin-right: 20px;
+}
+.feedback-slider__name {
+  font-family: "Arguedemo";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 33px;
+  color: #1A1D30;
+}
+.feedback-slider__text {
+  max-width: 440px;
+}
+
+/*# sourceMappingURL=feedback.css.map */
